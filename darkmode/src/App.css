@@ -1,0 +1,110 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#light{
+  background-color: #d0d6f0;
+}
+
+#dark{
+  background-color: #13111b;
+}
+
+body .main{
+  width: 400px;
+  height: 330px;
+  border-radius: 1.5rem;
+  background-color: #ddd;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14) ;
+}
+
+#light .main{
+  background-color: #f6f6f6;
+}
+
+#dark .main{
+  background-color: #272136;
+}
+
+.sign{
+  padding-top:40px;
+  font-size: 23px;
+  font-weight: 700;
+  color: #5a4b81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#light .sign{
+  color: #5a4b81;
+}
+
+#dark .sign{
+  color: #f6f6f6;
+}
+
+.username, .password{
+  width: 76%;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin: 20px;
+  text-align: center;
+}
+
+form.form{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: #606060;
+  margin: 10px;
+  font-style: italic;
+}
+
+
+#dark a{
+  color: #f4f4f4;
+}
+
+a#forgot:hover{
+  text-decoration: underline;
+  color: #0b48e1;
+  transition: 1s;
+
+}
+
+
+.submit{
+  cursor: pointer;
+  border-radius: 5rem;
+  color: #f4f4f4;
+  background-color: #463d5e;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+#dark .submit{
+  font-style: normal;
+}
+.submit:hover{
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+  background-color: #34ac09;
+}
